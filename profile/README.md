@@ -7,10 +7,9 @@
 
 ---
 
-_This repository is a work in progress._
+A TypeScript framework for Discord bots. Start a project with `pnpm create seedcord`.
 
-- There are no stable releases yet but changes are being made actively.
-- Until a major v1.0.0 release for seedcord, expect breaking changes in minor versions.
-- Documentation will come soon as well!
+- `@seedcord/gateway` holds a websocket connection through discord.js
+- `@seedcord/http` answers Discord's interactions endpoint, including on the edge
 
-If you'd like to try it out, you can check out the code in `mock`
+[seedcord.org](https://seedcord.org) · [guide](https://guide.seedcord.org) · [reference](https://docs.seedcord.org)
